@@ -1,0 +1,20 @@
+{
+    "nome_dataset": "modalidades",
+    "fonte": "integração",
+    "descricao": "Modalidades",
+    "campos": [
+        "edition",
+        "edition_id",
+        "country_noc",
+        "sport",
+        "event",
+        "result_id",
+        "athlete",
+        "athlete_id",
+        "position",
+        "medal",
+        "is_team_sport"
+    ],
+    "data_criacao": "2026-03-29 20:32:14.242155",
+    "observacoes": ""
+}

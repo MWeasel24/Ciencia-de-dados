@@ -1,0 +1,20 @@
+{
+    "nome_dataset": "modalidades_1896_2022",
+    "fonte": "Dados Olímpicos",
+    "descricao": "Dataset modalidades_1896_2022",
+    "campos": [
+        "edition",
+        "edition_id",
+        "country_noc",
+        "sport",
+        "event",
+        "result_id",
+        "athlete",
+        "athlete_id",
+        "position",
+        "medal",
+        "is_team_sport"
+    ],
+    "data_criacao": "2026-03-29 20:31:25.521724",
+    "observacoes": ""
+}

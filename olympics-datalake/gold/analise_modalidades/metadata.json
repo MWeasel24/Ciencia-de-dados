@@ -1,0 +1,19 @@
+{
+    "nome_dataset": "analise_modalidades",
+    "fonte": "processamento",
+    "descricao": "Modalidades mais frequentes",
+    "campos": [
+        "Athletics",
+        "Artistic Gymnastics",
+        "Swimming",
+        "Fencing",
+        "Shooting",
+        "Rowing",
+        "Cross Country Skiing",
+        "Alpine Skiing",
+        "Football",
+        "Wrestling"
+    ],
+    "data_criacao": "2026-03-29 20:34:04.302330",
+    "observacoes": ""
+}

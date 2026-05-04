@@ -1,0 +1,16 @@
+{
+    "nome_dataset": "medalhas_2024",
+    "fonte": "Dados Olímpicos",
+    "descricao": "Dataset medalhas_2024",
+    "campos": [
+        "country_code",
+        "country",
+        "country_long",
+        "Gold Medal",
+        "Silver Medal",
+        "Bronze Medal",
+        "Total"
+    ],
+    "data_criacao": "2026-03-29 20:31:24.726424",
+    "observacoes": ""
+}

@@ -1,0 +1,283 @@
+{
+    "data_lake": "Olympics Data Lake",
+    "camadas": {
+        "raw": [
+            {
+                "arquivo": "medalhas_1896_2022.json",
+                "caminho": "olympics-datalake/raw/medalhas_1896_2022.json",
+                "nome_dataset": "medalhas_1896_2022",
+                "descricao": "Dataset medalhas_1896_2022",
+                "campos": [
+                    "year",
+                    "edition",
+                    "edition_id",
+                    "country",
+                    "country_noc",
+                    "gold",
+                    "silver",
+                    "bronze",
+                    "total"
+                ]
+            },
+            {
+                "arquivo": "modalidades_2024.json",
+                "caminho": "olympics-datalake/raw/modalidades_2024.json",
+                "nome_dataset": "modalidades_2024",
+                "descricao": "Dataset modalidades_2024",
+                "campos": [
+                    "event",
+                    "tag",
+                    "sport",
+                    "sport_code",
+                    "sport_url"
+                ]
+            },
+            {
+                "arquivo": "atletas_1896_2022.json",
+                "caminho": "olympics-datalake/raw/atletas_1896_2022.json",
+                "nome_dataset": "atletas_1896_2022",
+                "descricao": "Dataset atletas_1896_2022",
+                "campos": [
+                    "athlete_id",
+                    "name",
+                    "sex",
+                    "birth_date",
+                    "birth_year",
+                    "height",
+                    "weight",
+                    "country",
+                    "country_noc",
+                    "description",
+                    "special_notes"
+                ]
+            },
+            {
+                "arquivo": "medalhas_2024.json",
+                "caminho": "olympics-datalake/raw/medalhas_2024.json",
+                "nome_dataset": "medalhas_2024",
+                "descricao": "Dataset medalhas_2024",
+                "campos": [
+                    "country_code",
+                    "country",
+                    "country_long",
+                    "Gold Medal",
+                    "Silver Medal",
+                    "Bronze Medal",
+                    "Total"
+                ]
+            },
+            {
+                "arquivo": "atletas_2024.json",
+                "caminho": "olympics-datalake/raw/atletas_2024.json",
+                "nome_dataset": "atletas_2024",
+                "descricao": "Dataset atletas_2024",
+                "campos": [
+                    "code",
+                    "current",
+                    "name",
+                    "name_short",
+                    "name_tv",
+                    "gender",
+                    "function",
+                    "country_code",
+                    "country",
+                    "country_long",
+                    "nationality",
+                    "nationality_long",
+                    "nationality_code",
+                    "height",
+                    "weight",
+                    "disciplines",
+                    "events",
+                    "birth_date",
+                    "birth_place",
+                    "birth_country",
+                    "residence_place",
+                    "residence_country",
+                    "nickname",
+                    "hobbies",
+                    "occupation",
+                    "education",
+                    "family",
+                    "lang",
+                    "coach",
+                    "reason",
+                    "hero",
+                    "influence",
+                    "philosophy",
+                    "sporting_relatives",
+                    "ritual",
+                    "other_sports"
+                ]
+            },
+            {
+                "arquivo": "modalidades_1896_2022.json",
+                "caminho": "olympics-datalake/raw/modalidades_1896_2022.json",
+                "nome_dataset": "modalidades_1896_2022",
+                "descricao": "Dataset modalidades_1896_2022",
+                "campos": [
+                    "edition",
+                    "edition_id",
+                    "country_noc",
+                    "sport",
+                    "event",
+                    "result_id",
+                    "athlete",
+                    "athlete_id",
+                    "position",
+                    "medal",
+                    "is_team_sport"
+                ]
+            }
+        ],
+        "bronze": [
+            {
+                "arquivo": "medalhas_com_atletas.json",
+                "caminho": "olympics-datalake/bronze/medalhas_com_atletas.json",
+                "nome_dataset": "medalhas_com_atletas",
+                "descricao": "Medalhas + quantidade de atletas",
+                "campos": [
+                    "year",
+                    "edition",
+                    "edition_id",
+                    "country",
+                    "country_noc",
+                    "gold",
+                    "silver",
+                    "bronze",
+                    "total",
+                    "country_long",
+                    "qtd_atletas"
+                ]
+            },
+            {
+                "arquivo": "atletas.json",
+                "caminho": "olympics-datalake/bronze/atletas.json",
+                "nome_dataset": "atletas",
+                "descricao": "Atletas unificados",
+                "campos": [
+                    "athlete_id",
+                    "name",
+                    "sex",
+                    "birth_date",
+                    "birth_year",
+                    "height",
+                    "weight",
+                    "country",
+                    "country_noc",
+                    "description",
+                    "special_notes",
+                    "current",
+                    "name_short",
+                    "name_tv",
+                    "function",
+                    "country_code",
+                    "country_long",
+                    "nationality",
+                    "nationality_long",
+                    "nationality_code",
+                    "disciplines",
+                    "events",
+                    "birth_place",
+                    "birth_country",
+                    "residence_place",
+                    "residence_country",
+                    "nickname",
+                    "hobbies",
+                    "occupation",
+                    "education",
+                    "family",
+                    "lang",
+                    "coach",
+                    "reason",
+                    "hero",
+                    "influence",
+                    "philosophy",
+                    "sporting_relatives",
+                    "ritual",
+                    "other_sports"
+                ]
+            },
+            {
+                "arquivo": "modalidades.json",
+                "caminho": "olympics-datalake/bronze/modalidades.json",
+                "nome_dataset": "modalidades",
+                "descricao": "Modalidades",
+                "campos": [
+                    "edition",
+                    "edition_id",
+                    "country_noc",
+                    "sport",
+                    "event",
+                    "result_id",
+                    "athlete",
+                    "athlete_id",
+                    "position",
+                    "medal",
+                    "is_team_sport"
+                ]
+            },
+            {
+                "arquivo": "medalhas.json",
+                "caminho": "olympics-datalake/bronze/medalhas.json",
+                "nome_dataset": "medalhas",
+                "descricao": "Medalhas unificadas",
+                "campos": [
+                    "year",
+                    "edition",
+                    "edition_id",
+                    "country",
+                    "country_noc",
+                    "gold",
+                    "silver",
+                    "bronze",
+                    "total",
+                    "country_long"
+                ]
+            }
+        ],
+        "gold": [
+            {
+                "arquivo": "metadata.json",
+                "caminho": "olympics-datalake/gold/analise_modalidades/metadata.json",
+                "nome_dataset": "analise_modalidades",
+                "descricao": "Modalidades mais frequentes",
+                "campos": [
+                    "Athletics",
+                    "Artistic Gymnastics",
+                    "Swimming",
+                    "Fencing",
+                    "Shooting",
+                    "Rowing",
+                    "Cross Country Skiing",
+                    "Alpine Skiing",
+                    "Football",
+                    "Wrestling"
+                ]
+            },
+            {
+                "arquivo": "metadata.json",
+                "caminho": "olympics-datalake/gold/analise_medalhas/metadata.json",
+                "nome_dataset": "analise_medalhas",
+                "descricao": "Top 10 países por medalhas",
+                "campos": [
+                    "gold",
+                    "silver",
+                    "bronze",
+                    "total"
+                ]
+            },
+            {
+                "arquivo": "metadata.json",
+                "caminho": "olympics-datalake/gold/analise_genero/metadata.json",
+                "nome_dataset": "analise_genero",
+                "descricao": "Distribuição de atletas por gênero",
+                "campos": [
+                    "Male",
+                    "Female"
+                ]
+            }
+        ]
+    },
+    "data_criacao": "2026-03-29 20:41:01.204536"
+}

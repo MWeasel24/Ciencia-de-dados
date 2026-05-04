@@ -1,0 +1,14 @@
+{
+    "nome_dataset": "modalidades_2024",
+    "fonte": "Dados Olímpicos",
+    "descricao": "Dataset modalidades_2024",
+    "campos": [
+        "event",
+        "tag",
+        "sport",
+        "sport_code",
+        "sport_url"
+    ],
+    "data_criacao": "2026-03-29 20:31:25.524574",
+    "observacoes": ""
+}

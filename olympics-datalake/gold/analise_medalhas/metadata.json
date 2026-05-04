@@ -1,0 +1,13 @@
+{
+    "nome_dataset": "analise_medalhas",
+    "fonte": "processamento",
+    "descricao": "Top 10 países por medalhas",
+    "campos": [
+        "gold",
+        "silver",
+        "bronze",
+        "total"
+    ],
+    "data_criacao": "2026-03-29 20:34:03.853067",
+    "observacoes": ""
+}

@@ -1,0 +1,18 @@
+{
+    "nome_dataset": "medalhas_1896_2022",
+    "fonte": "Dados Olímpicos",
+    "descricao": "Dataset medalhas_1896_2022",
+    "campos": [
+        "year",
+        "edition",
+        "edition_id",
+        "country",
+        "country_noc",
+        "gold",
+        "silver",
+        "bronze",
+        "total"
+    ],
+    "data_criacao": "2026-03-29 20:31:24.724528",
+    "observacoes": ""
+}
