@@ -1,4 +1,6 @@
- Análise Exploratória com PCA e MDS em Vendas de Açougue
+# Análise Exploratória com PCA e MDS em Vendas de Açougue
+
+## Explicação detalhada no arquivo "pca_mds_acougue.ipynb"
 
 ## Integrantes
 
